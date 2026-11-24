@@ -1,0 +1,113 @@
+{
+  "type": "FeatureCollection",
+  "name": "NITJ_Campus_Roads",
+  "crs": {
+    "type": "name",
+    "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" }
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "id": "ROAD-001",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [75.53650, 31.39820],
+          [75.53650, 31.39650],
+          [75.53600, 31.39630]
+        ]
+      },
+      "properties": {
+        "id": "ROAD-001",
+        "name": "Main Entrance Boulevard (NITJ Avenue)",
+        "category": "arterial",
+        "surface": "asphalt",
+        "lanes": 2,
+        "speedLimit": 20,
+        "widthMeters": 7.5,
+        "verification": "verified",
+        "source": "OpenStreetMap / Satellite Imagery",
+        "description": "Primary tree-lined central ceremonial boulevard leading from Main Gate directly to the Administrative Core and Central Circle."
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "ROAD-002",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [75.53600, 31.39630],
+          [75.53480, 31.39610],
+          [75.53420, 31.39540],
+          [75.53450, 31.39460],
+          [75.53580, 31.39450],
+          [75.53680, 31.39480],
+          [75.53680, 31.39610],
+          [75.53600, 31.39630]
+        ]
+      },
+      "properties": {
+        "id": "ROAD-002",
+        "name": "Academic Loop Ring Road",
+        "category": "collector",
+        "surface": "asphalt",
+        "lanes": 2,
+        "speedLimit": 15,
+        "widthMeters": 6.0,
+        "verification": "partially_verified",
+        "source": "Satellite Aerial Imagery",
+        "description": "Ring roadway encircling the engineering departments, workshop complexes, and Central Library."
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "ROAD-003",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [75.53420, 31.39540],
+          [75.53320, 31.39450],
+          [75.53250, 31.39320],
+          [75.53220, 31.39220]
+        ]
+      },
+      "properties": {
+        "id": "ROAD-003",
+        "name": "Boys Hostel Arterial Road",
+        "category": "collector",
+        "surface": "asphalt",
+        "lanes": 2,
+        "speedLimit": 15,
+        "widthMeters": 6.0,
+        "verification": "partially_verified",
+        "source": "Satellite Aerial Imagery",
+        "description": "Roadway extending southwest connecting the academic complex with Boys Hostels 1-7 and the Mega Boys Hostel (MBH)."
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "ROAD-004",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [75.53650, 31.39650],
+          [75.53750, 31.39660],
+          [75.53850, 31.39640],
+          [75.53920, 31.39560]
+        ]
+      },
+      "properties": {
+        "id": "ROAD-004",
+        "name": "Eastern Residential & Amenities Drive",
+        "category": "residential",
+        "surface": "asphalt",
+        "lanes": 2,
+        "speedLimit": 15,
+        "widthMeters": 5.5,
+        "verification": "partially_verified",
+        "source": "Satellite Aerial Imagery",
+        "description": "Access road servicing the Shopping Complex, Health Centre, Guest House, and Mega Girls Hostel."
+      }
+    }
+  ]
+}

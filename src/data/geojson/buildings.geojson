@@ -1,0 +1,415 @@
+{
+  "type": "FeatureCollection",
+  "name": "NITJ_Campus_Buildings",
+  "crs": {
+    "type": "name",
+    "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" }
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "id": "CAMPUS-BND",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [75.53420, 31.39850],
+            [75.53850, 31.39810],
+            [75.54150, 31.39550],
+            [75.53950, 31.39150],
+            [75.53300, 31.39180],
+            [75.53150, 31.39450],
+            [75.53420, 31.39850]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "CAMPUS-BND",
+        "name": "NIT Jalandhar Campus Boundary (154 Acres)",
+        "shortName": "Campus Perimeter",
+        "category": "boundary",
+        "verification": "verified",
+        "source": "OpenStreetMap / Institutional Boundary Surveys",
+        "areaAcres": 154,
+        "description": "Outer cadastral boundary encompassing 154 acres of academic, residential, sports, and green zones."
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "ADM-01",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [75.53570, 31.39610],
+            [75.53630, 31.39610],
+            [75.53630, 31.39650],
+            [75.53570, 31.39650],
+            [75.53570, 31.39610]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "ADM-01",
+        "name": "Administrative Block",
+        "shortName": "Admin Block",
+        "category": "administrative",
+        "floors": 3,
+        "height": 12.0,
+        "verification": "partially_verified",
+        "source": "NITJ Website / Satellite Aerial Reference",
+        "color": "#7c3aed",
+        "accessible": true,
+        "description": "Central administrative headquarters housing the Director's Office, Registrar, Deans, Academic Section, and Accounts."
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "CEN-01",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [75.53520, 31.39630],
+            [75.53560, 31.39630],
+            [75.53560, 31.39665],
+            [75.53520, 31.39665],
+            [75.53520, 31.39630]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "CEN-01",
+        "name": "Central Seminar Hall",
+        "shortName": "Seminar Hall",
+        "category": "central_facility",
+        "floors": 2,
+        "height": 10.0,
+        "verification": "partially_verified",
+        "source": "Convocation Archive / Campus Maps",
+        "color": "#2563eb",
+        "accessible": true,
+        "description": "Major institutional auditorium and symposium venue hosting national conferences, workshops, and ceremonial assemblies."
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "CEN-02",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [75.53610, 31.39660],
+            [75.53670, 31.39660],
+            [75.53670, 31.39700],
+            [75.53610, 31.39700],
+            [75.53610, 31.39660]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "CEN-02",
+        "name": "Central Library / Knowledge Centre",
+        "shortName": "Central Library",
+        "category": "academic",
+        "floors": 3,
+        "height": 13.5,
+        "verification": "partially_verified",
+        "source": "Official Website / Satellite Imagery",
+        "color": "#2563eb",
+        "accessible": true,
+        "description": "Comprehensive institutional library housing over 100,000 volumes, e-resource portals, reading lounges, and study cubes."
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "ACA-01",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [75.53460, 31.39530],
+            [75.53520, 31.39530],
+            [75.53520, 31.39575],
+            [75.53460, 31.39575],
+            [75.53460, 31.39530]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "ACA-01",
+        "name": "Computer Science & Engineering (CSE) Block",
+        "shortName": "CSE Dept",
+        "category": "academic",
+        "floors": 3,
+        "height": 12.0,
+        "verification": "partially_verified",
+        "source": "NITJ Academic Portal / Satellite Reference",
+        "color": "#2563eb",
+        "accessible": true,
+        "description": "Houses departmental classrooms, high-performance computing clusters, cloud/AI research laboratories, and faculty offices."
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "ACA-02",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [75.53510, 31.39515],
+            [75.53560, 31.39515],
+            [75.53560, 31.39555],
+            [75.53510, 31.39555],
+            [75.53510, 31.39515]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "ACA-02",
+        "name": "Information Technology (IT) Block / IT Building",
+        "shortName": "IT Dept",
+        "category": "academic",
+        "floors": 3,
+        "height": 12.0,
+        "verification": "partially_verified",
+        "source": "NITJ Academic Portal / Satellite Reference",
+        "color": "#2563eb",
+        "accessible": true,
+        "description": "Information Technology departmental facility, computing labs, network administration units, and software engineering suites."
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "ACA-03",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [75.53580, 31.39485],
+            [75.53645, 31.39485],
+            [75.53645, 31.39530],
+            [75.53580, 31.39530],
+            [75.53580, 31.39485]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "ACA-03",
+        "name": "Civil Engineering Block & Laboratories",
+        "shortName": "Civil Engg",
+        "category": "academic",
+        "floors": 2,
+        "height": 9.5,
+        "verification": "partially_verified",
+        "source": "NITJ Academic Portal / Satellite Reference",
+        "color": "#2563eb",
+        "accessible": true,
+        "description": "Foundational engineering department with heavy structural, concrete technology, geotechnical, and highway materials laboratories."
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "LHC-01",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [75.53420, 31.39580],
+            [75.53490, 31.39580],
+            [75.53490, 31.39625],
+            [75.53420, 31.39625],
+            [75.53420, 31.39580]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "LHC-01",
+        "name": "Lecture Hall Complex (LHC) & AKAM Lecture Theatre",
+        "shortName": "LHC / AKAM",
+        "category": "academic",
+        "floors": 3,
+        "height": 13.0,
+        "verification": "partially_verified",
+        "source": "XCEED Event Layout / BWC Records",
+        "color": "#2563eb",
+        "accessible": true,
+        "description": "Central tiered lecture theater complex including the modern AKAM Lecture Theatre, smart audiovisual seminar rooms, and main examination halls."
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "CEN-05",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [75.53320, 31.39500],
+            [75.53390, 31.39500],
+            [75.53390, 31.39550],
+            [75.53320, 31.39550],
+            [75.53320, 31.39500]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "CEN-05",
+        "name": "Student Activity Centre (SAC)",
+        "shortName": "SAC",
+        "category": "sports",
+        "floors": 2,
+        "height": 10.5,
+        "verification": "partially_verified",
+        "source": "SMILE Portal / Student Welfare Records",
+        "color": "#ea580c",
+        "accessible": true,
+        "description": "Epicenter of student clubs and physical fitness; houses indoor badminton courts, table tennis hall, gymnasium, yoga room, and society offices."
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "HST-08",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [75.53180, 31.39200],
+            [75.53270, 31.39200],
+            [75.53270, 31.39270],
+            [75.53180, 31.39270],
+            [75.53180, 31.39200]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "HST-08",
+        "name": "Mega Boys Hostel Complex (MBH)",
+        "shortName": "Mega Boys Hostel",
+        "category": "hostel",
+        "floors": 7,
+        "height": 24.0,
+        "verification": "partially_verified",
+        "source": "NITJ Hostels / BWC Project Minutes",
+        "color": "#059669",
+        "accessible": true,
+        "description": "Multi-story residential complex comprising Blocks A, B, E, and F, housing undergraduate and postgraduate male students, with central mess."
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "HST-15",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [75.53880, 31.39550],
+            [75.53960, 31.39550],
+            [75.53960, 31.39620],
+            [75.53880, 31.39620],
+            [75.53880, 31.39550]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "HST-15",
+        "name": "Mega Girls Hostel Complex",
+        "shortName": "Mega Girls Hostel",
+        "category": "hostel",
+        "floors": 6,
+        "height": 21.0,
+        "verification": "partially_verified",
+        "source": "NITJ Hostels / BWC Minutes",
+        "color": "#059669",
+        "accessible": true,
+        "description": "Gated high-rise accommodation for female scholars with secure perimeter, study rooms, dedicated mess halls, and recreational courts."
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "AMN-01",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [75.53750, 31.39665],
+            [75.53810, 31.39665],
+            [75.53810, 31.39705],
+            [75.53750, 31.39705],
+            [75.53750, 31.39665]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "AMN-01",
+        "name": "Campus Shopping Centre & Commercial Complex",
+        "shortName": "Shopping Centre",
+        "category": "amenity",
+        "floors": 1,
+        "height": 4.5,
+        "verification": "partially_verified",
+        "source": "SMILE Portal / Field Inspection",
+        "color": "#0891b2",
+        "accessible": true,
+        "description": "Daily essentials market housing grocery stores, book and stationery depot, high-speed photocopying, and personal grooming services."
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "MED-01",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [75.53800, 31.39625],
+            [75.53855, 31.39625],
+            [75.53855, 31.39660],
+            [75.53800, 31.39660],
+            [75.53800, 31.39625]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "MED-01",
+        "name": "Institute Dispensary, Health Centre & Post Office",
+        "shortName": "Health Centre & PO",
+        "category": "medical",
+        "floors": 2,
+        "height": 8.0,
+        "verification": "partially_verified",
+        "source": "SMILE Portal / Health Centre Records",
+        "color": "#dc2626",
+        "accessible": true,
+        "description": "Round-the-clock primary medical facility with doctor consultation, 24/7 ambulance station, medical pharmacy, and Campus Post Office."
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "RES-01",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [75.53720, 31.39715],
+            [75.53780, 31.39715],
+            [75.53780, 31.39760],
+            [75.53720, 31.39760],
+            [75.53720, 31.39715]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "RES-01",
+        "name": "Institute Guest House & Mega Guest House",
+        "shortName": "Guest House",
+        "category": "hospitality",
+        "floors": 2,
+        "height": 8.5,
+        "verification": "partially_verified",
+        "source": "SMILE Portal / Estate Office",
+        "color": "#7c3aed",
+        "accessible": true,
+        "description": "Institutional hospitality accommodation for visiting professors, conference delegates, Board of Governors guests, and institute alumni."
+      }
+    }
+  ]
+}

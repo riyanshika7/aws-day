@@ -1,0 +1,122 @@
+{
+  "type": "FeatureCollection",
+  "name": "NITJ_Campus_Landmarks",
+  "crs": {
+    "type": "name",
+    "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" }
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "id": "LMK-001",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [75.53590, 31.39655]
+      },
+      "properties": {
+        "id": "LMK-001",
+        "name": "Dr. B. R. Ambedkar Memorial Statue & Circle",
+        "category": "monument",
+        "verification": "partially_verified",
+        "source": "Campus Ground Reality",
+        "description": "Central memorial rotunda commemorating Dr. Bhimrao Ramji Ambedkar, after whom the Institute of National Importance is named."
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "LMK-002",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [75.53765, 31.39680]
+      },
+      "properties": {
+        "id": "LMK-002",
+        "name": "Canara Bank Branch & 24x7 ATM",
+        "category": "bank_atm",
+        "verification": "partially_verified",
+        "source": "SMILE Portal (`CampusAmenities.html`)",
+        "description": "Full-service on-campus bank branch and ATM kiosk providing banking, fee deposits, and student account operations."
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "LMK-003",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [75.53740, 31.39730]
+      },
+      "properties": {
+        "id": "LMK-003",
+        "name": "State Bank of India (SBI) Branch & ATM",
+        "category": "bank_atm",
+        "verification": "partially_verified",
+        "source": "SMILE Portal (`CampusAmenities.html`)",
+        "description": "State Bank of India institutional branch and ATM facility located conveniently near the Guest House and Shopping Complex."
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "LMK-004",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [75.53835, 31.39640]
+      },
+      "properties": {
+        "id": "LMK-004",
+        "name": "Campus Post Office (Dispensary Annex)",
+        "category": "public_service",
+        "verification": "partially_verified",
+        "source": "SMILE Portal (`CampusAmenities.html`)",
+        "description": "Indian Postal Service delivery post office handling speed post, registered mail, parcel dispatch, and stationery."
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "LMK-005",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [75.53820, 31.39645]
+      },
+      "properties": {
+        "id": "LMK-005",
+        "name": "24x7 Emergency Chemist & Medical Store",
+        "category": "medical",
+        "verification": "partially_verified",
+        "source": "SMILE Portal (`CampusAmenities.html`)",
+        "description": "Pharmacy located inside the Dispensary building stocking essential medicines, first aid supplies, and prescription drugs."
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "LMK-006",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [75.53500, 31.39490]
+      },
+      "properties": {
+        "id": "LMK-006",
+        "name": "Food Point (Near Biotechnology Block)",
+        "category": "dining",
+        "verification": "partially_verified",
+        "source": "SMILE Portal (`CampusAmenities.html`)",
+        "description": "Popular campus dining kiosk near the Biotechnology Department serving refreshments, fresh juices, and hot snacks."
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "LMK-007",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [75.53570, 31.39670]
+      },
+      "properties": {
+        "id": "LMK-007",
+        "name": "Verka Dairy Milk & Ice Cream Booth",
+        "category": "dining",
+        "verification": "partially_verified",
+        "source": "SMILE Portal (`CampusAmenities.html`)",
+        "description": "Authorized Verka milk booth offering dairy products, lassi, flavored milk, and snacks for students and residents."
+      }
+    }
+  ]
+}

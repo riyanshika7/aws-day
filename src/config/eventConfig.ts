@@ -1,0 +1,196 @@
+import type { EventConfig, Signboard } from '../types/signage';
+
+export const AWS_COMMUNITY_DAY_CONFIG: EventConfig = {
+  eventName: 'AWS Student Community Day 2027',
+  eventSubtitle: 'North India Edition | Cloud, AI & Next-Gen Builders',
+  editionYear: 2027,
+  hostInstitution: 'Dr. B. R. Ambedkar National Institute of Technology, Jalandhar',
+  locationCity: 'Jalandhar, Punjab, India',
+  dates: 'Saturday, February 27, 2027',
+  themeColorPrimary: '#232f3e',   // AWS Squid Ink
+  themeColorSecondary: '#ff9900', // AWS Smile Orange
+  themeColorAccent: '#0073bb',    // AWS Blue
+  activeVenueId: 'CEN-01',        // Default proposed venue: Central Seminar Hall
+  candidateVenues: [
+    {
+      id: 'CEN-01',
+      name: 'Central Seminar Hall',
+      shortName: 'Seminar Hall',
+      coordinates: [75.53540, 31.39645],
+      capacity: 650,
+      description: 'Central campus convention and auditorium venue with multi-tier seating and integrated audio-visual projection.',
+      isConfirmed: true
+    },
+    {
+      id: 'CEN-03',
+      name: 'Institute Auditorium',
+      shortName: 'Auditorium',
+      coordinates: [75.53420, 31.39680],
+      capacity: 1200,
+      description: 'Grand campus auditorium for high-capacity keynotes, cultural gatherings, and institute convocations.',
+      isConfirmed: false
+    },
+    {
+      id: 'LHC-01',
+      name: 'Lecture Hall Complex (LHC) & AKAM Lecture Theatre',
+      shortName: 'LHC / AKAM',
+      coordinates: [75.53455, 31.39600],
+      capacity: 500,
+      description: 'Modern tiered lecture theatre with acoustic wall cladding and dedicated AV control room.',
+      isConfirmed: false
+    },
+    {
+      id: 'ACA-02',
+      name: 'Department of Information Technology (IT Complex)',
+      shortName: 'IT Building',
+      coordinates: [75.53535, 31.39535],
+      capacity: 350,
+      description: 'Computing auditoriums, cloud lab spaces, and hackathon breakout rooms.',
+      isConfirmed: false
+    }
+  ]
+};
+
+// Initial verified & proposed physical signboards for AWS Student Community Day 2027
+export const INITIAL_SIGNBOARDS: Signboard[] = [
+  {
+    id: 'SIGN-AWS-001',
+    title: 'Main Entrance Welcome & Event Wayfinding',
+    locationDescription: 'Main Gate (Gate No. 1) on Grand Trunk Road (Amritsar Bypass)',
+    coordinates: [75.53650, 31.39820],
+    type: 'entrance_welcome',
+    arrowDirection: 'straight',
+    destinationId: 'CEN-01',
+    destinationName: 'Central Seminar Hall',
+    distanceMeters: 235,
+    estimatedWalkingMinutes: 3,
+    dimension: '6x3_feet',
+    installationStatus: 'proposed',
+    material: '540 GSM Heavy Duty Outdoor Vinyl with Brass Eyelets',
+    notes: 'Positioned on the main gate entrance gantry visible to arriving vehicular and pedestrian attendees.',
+    customMessage: 'Welcome to North India’s Largest Student Cloud Conference!',
+    qrUrl: '',
+    createdAt: '2026-11-23T00:00:00Z',
+    updatedAt: '2026-11-23T00:00:00Z'
+  },
+  {
+    id: 'SIGN-AWS-002',
+    title: 'Central Avenue & Shopping Complex Junction Sign',
+    locationDescription: 'Junction of Central Boulevard, Shopping Complex & Bank Circle',
+    coordinates: [75.53650, 31.39650],
+    type: 'junction_sign',
+    arrowDirection: 'slight_right',
+    destinationId: 'CEN-01',
+    destinationName: 'Central Seminar Hall',
+    distanceMeters: 110,
+    estimatedWalkingMinutes: 2,
+    dimension: '4x2_feet',
+    installationStatus: 'proposed',
+    material: '3mm Rigid Reflective Coroplast Board with Post Mount',
+    notes: 'Key decision junction directing attendees arriving from Main Gate toward the venue while signposting parking to the east.',
+    customMessage: 'Follow Pedestrian Promenade to Event Keynote Hall',
+    qrUrl: '',
+    createdAt: '2026-11-23T00:00:00Z',
+    updatedAt: '2026-11-23T00:00:00Z'
+  },
+  {
+    id: 'SIGN-AWS-003',
+    title: 'Academic Core & IT Building Directional Sign',
+    locationDescription: 'Academic Ring Road adjacent to Computer Science & IT Block',
+    coordinates: [75.53535, 31.39535],
+    type: 'directional_arrow',
+    arrowDirection: 'straight',
+    destinationId: 'CEN-01',
+    destinationName: 'Central Seminar Hall',
+    distanceMeters: 130,
+    estimatedWalkingMinutes: 2,
+    dimension: '3x2_feet',
+    installationStatus: 'proposed',
+    material: '3mm Outdoor Aluminum Composite Panel',
+    notes: 'Guides attendees and workshop participants walking from department labs or hackathon spaces towards the keynote venue.',
+    customMessage: 'Keynote & Hands-On Workshop Hall Ahead',
+    qrUrl: '',
+    createdAt: '2026-11-23T00:00:00Z',
+    updatedAt: '2026-11-23T00:00:00Z'
+  },
+  {
+    id: 'SIGN-AWS-004',
+    title: 'Administrative Promenade & LHC Road Junction',
+    locationDescription: 'North-west corner of Admin Block & Central Seminar Hall Foyer',
+    coordinates: [75.53600, 31.39630],
+    type: 'directional_arrow',
+    arrowDirection: 'right',
+    destinationId: 'CEN-01',
+    destinationName: 'Central Seminar Hall',
+    distanceMeters: 55,
+    estimatedWalkingMinutes: 1,
+    dimension: '3x2_feet',
+    installationStatus: 'proposed',
+    material: 'Coroplast Directional Sign with Heavy Ground Stake',
+    notes: 'Directs pedestrian flow arriving from student hostel pathways into the venue foyer entrance.',
+    customMessage: 'Event Entrance & Check-in Desks 50m on Right',
+    qrUrl: '',
+    createdAt: '2026-11-23T00:00:00Z',
+    updatedAt: '2026-11-23T00:00:00Z'
+  },
+  {
+    id: 'SIGN-AWS-005',
+    title: 'Venue Arrival & Welcome Facade Banner',
+    locationDescription: 'Exterior Facade & Portico of Central Seminar Hall',
+    coordinates: [75.53540, 31.39645],
+    type: 'venue_arrival',
+    arrowDirection: 'none',
+    destinationId: 'CEN-01',
+    destinationName: 'Central Seminar Hall',
+    distanceMeters: 0,
+    estimatedWalkingMinutes: 0,
+    dimension: '6x3_feet',
+    installationStatus: 'proposed',
+    material: 'Premium Backlit Flex Banner for Venue Portico',
+    notes: 'Main arrival backdrop for photo-ops, registration guidance, and keynote session agenda schedule.',
+    customMessage: 'You Have Arrived! Proceed Inside for Registration & Badges',
+    qrUrl: '',
+    createdAt: '2026-11-23T00:00:00Z',
+    updatedAt: '2026-11-23T00:00:00Z'
+  },
+  {
+    id: 'SIGN-AWS-006',
+    title: 'Registration, Speaker & Attendee Check-In Totem',
+    locationDescription: 'Central Seminar Hall Indoor Foyer & Registration Concourse',
+    coordinates: [75.53545, 31.39640],
+    type: 'registration_checkin',
+    arrowDirection: 'straight',
+    destinationId: 'CEN-01',
+    destinationName: 'Registration Concourse',
+    distanceMeters: 10,
+    estimatedWalkingMinutes: 1,
+    dimension: '2.5x6_feet',
+    installationStatus: 'proposed',
+    material: 'Heavy-Duty Retractable Roll-Up Aluminum Standee',
+    notes: 'Dual lane check-in guidance: Lane 1 for Pre-Registered Attendees, Lane 2 for Speakers, Mentors & Sponsors.',
+    customMessage: 'Collect Your ID Badge, Swag Pack & Lunch Coupon',
+    qrUrl: '',
+    createdAt: '2026-11-23T00:00:00Z',
+    updatedAt: '2026-11-23T00:00:00Z'
+  },
+  {
+    id: 'SIGN-AWS-007',
+    title: 'Event Parking & Barrier-Free Accessibility Direction',
+    locationDescription: 'Administrative Parking Bay & Ramp Approach',
+    coordinates: [75.53640, 31.39620],
+    type: 'parking_accessibility',
+    arrowDirection: 'left',
+    destinationId: 'CEN-01',
+    destinationName: 'Central Seminar Hall (Accessible Ramp Entrance)',
+    distanceMeters: 90,
+    estimatedWalkingMinutes: 1,
+    dimension: '4x2_feet',
+    installationStatus: 'proposed',
+    material: 'Reflective Weatherproof Aluminum Panel',
+    notes: 'Directs drivers to designated event parking bays and wheelchair users to the step-free ramp portico.',
+    customMessage: 'Reserved Speaker & Attendee Parking | Step-Free Ramp Access',
+    qrUrl: '',
+    createdAt: '2026-11-23T00:00:00Z',
+    updatedAt: '2026-11-23T00:00:00Z'
+  }
+];

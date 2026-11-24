@@ -1,0 +1,76 @@
+{
+  "type": "FeatureCollection",
+  "name": "NITJ_Campus_Gates",
+  "crs": {
+    "type": "name",
+    "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" }
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "id": "ENT-01",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [75.53650, 31.39820]
+      },
+      "properties": {
+        "id": "ENT-01",
+        "name": "Main Gate (Gate No. 1)",
+        "shortName": "Gate 1",
+        "category": "gate",
+        "type": "vehicular_and_pedestrian",
+        "access": "public_authorized",
+        "roadAccess": "Grand Trunk Road (Amritsar Bypass / NH-44)",
+        "operatingHours": "24x7",
+        "securityPresent": true,
+        "verification": "verified",
+        "source": "Official Website / Satellite Ground Truth",
+        "description": "Primary ceremonial and vehicular entrance to NIT Jalandhar on GT Road, Amritsar Bypass. Equipped with security guard booth and boom barriers."
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "ENT-02",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [75.53880, 31.39760]
+      },
+      "properties": {
+        "id": "ENT-02",
+        "name": "Gate No. 2 (Service & Logistics Gate)",
+        "shortName": "Gate 2",
+        "category": "gate",
+        "type": "vehicular_service",
+        "access": "restricted_commercial",
+        "roadAccess": "GT Road Service Lane",
+        "operatingHours": "06:00 - 22:00",
+        "securityPresent": true,
+        "verification": "partially_verified",
+        "source": "Campus Physical Layout / Satellite Imagery",
+        "description": "Secondary gate utilized for service logistics, construction vehicles, heavy maintenance transport, and delivery supply chains."
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "ENT-03",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [75.53180, 31.39320]
+      },
+      "properties": {
+        "id": "ENT-03",
+        "name": "Gate No. 3 (Rear / Bidhipur Link Gate)",
+        "shortName": "Gate 3",
+        "category": "gate",
+        "type": "pedestrian_and_light_vehicular",
+        "access": "residential_authorized",
+        "roadAccess": "Bidhipur Village Approach Road",
+        "operatingHours": "06:00 - 21:00",
+        "securityPresent": true,
+        "verification": "partially_verified",
+        "source": "Estate Office / Satellite Boundary Analysis",
+        "description": "Regulated gate connecting the western perimeter and hostel fields toward Bidhipur village and railway crossing access."
+      }
+    }
+  ]
+}

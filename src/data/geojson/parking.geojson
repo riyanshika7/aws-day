@@ -1,0 +1,64 @@
+{
+  "type": "FeatureCollection",
+  "name": "NITJ_Campus_Parking",
+  "crs": {
+    "type": "name",
+    "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" }
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "id": "PRK-001",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [75.53635, 31.39615],
+            [75.53670, 31.39615],
+            [75.53670, 31.39645],
+            [75.53635, 31.39645],
+            [75.53635, 31.39615]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "PRK-001",
+        "name": "Administrative Staff & Official Parking Bay",
+        "category": "parking",
+        "type": "four_wheeler_and_two_wheeler",
+        "capacityEstimated": 50,
+        "access": "authorized_faculty_and_staff",
+        "verification": "partially_verified",
+        "source": "Satellite Aerial Imagery / Estate Office",
+        "description": "Paved surface parking situated east of the Administrative Block for institute dignitaries, faculty, and administrative staff."
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "PRK-002",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [75.53660, 31.39780],
+            [75.53710, 31.39780],
+            [75.53710, 31.39810],
+            [75.53660, 31.39810],
+            [75.53660, 31.39780]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "PRK-002",
+        "name": "Main Gate Visitor & Transit Parking",
+        "category": "parking",
+        "type": "visitor_parking",
+        "capacityEstimated": 40,
+        "access": "public_visitors",
+        "verification": "partially_verified",
+        "source": "Satellite Aerial Imagery / Security Gate",
+        "description": "Designated parking area situated immediately inside Gate 1 for parents, visiting delegates, campus buses, and temporary vehicles."
+      }
+    }
+  ]
+}

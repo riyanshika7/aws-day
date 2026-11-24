@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 340" width="100%" height="100%">
+      <defs>
+        <linearGradient id="skyGrad" x1="0" y1="0" x2="0" y2="1">
+          <stop offset="0%" stop-color="#38bdf8"/>
+          <stop offset="60%" stop-color="#bae6fd"/>
+          <stop offset="100%" stop-color="#f0f9ff"/>
+        </linearGradient>
+        <linearGradient id="lawnGrad" x1="0" y1="0" x2="0" y2="1">
+          <stop offset="0%" stop-color="#22c55e"/>
+          <stop offset="100%" stop-color="#15803d"/>
+        </linearGradient>
+      </defs>
+      <!-- Sky & Lawn -->
+      <rect width="600" height="240" fill="url(#skyGrad)"/>
+      <rect y="240" width="600" height="100" fill="url(#lawnGrad)"/>
+      <!-- Symmetrical Admin Wings (Cream Plaster) -->
+      <rect x="70" y="100" width="460" height="140" fill="#f8fafc" stroke="#e2e8f0" stroke-width="2"/>
+      <!-- Red Brick Accent Frieze -->
+      <rect x="70" y="100" width="460" height="16" fill="#993d28"/>
+      <rect x="70" y="224" width="460" height="16" fill="#993d28"/>
+      <!-- Window Grids -->
+      <g fill="#0284c7" stroke="#cbd5e1" stroke-width="1.5">
+        <rect x="95" y="130" width="30" height="35" rx="2"/>
+        <rect x="145" y="130" width="30" height="35" rx="2"/>
+        <rect x="195" y="130" width="30" height="35" rx="2"/>
+        <rect x="375" y="130" width="30" height="35" rx="2"/>
+        <rect x="425" y="130" width="30" height="35" rx="2"/>
+        <rect x="475" y="130" width="30" height="35" rx="2"/>
+        <rect x="95" y="180" width="30" height="35" rx="2"/>
+        <rect x="145" y="180" width="30" height="35" rx="2"/>
+        <rect x="195" y="180" width="30" height="35" rx="2"/>
+        <rect x="375" y="180" width="30" height="35" rx="2"/>
+        <rect x="425" y="180" width="30" height="35" rx="2"/>
+        <rect x="475" y="180" width="30" height="35" rx="2"/>
+      </g>
+      <!-- Central Grand Portico -->
+      <rect x="240" y="80" width="120" height="160" fill="#ffffff" filter="drop-shadow(0 4px 8px rgba(0,0,0,0.15))"/>
+      <!-- 4 Classical Pillars -->
+      <rect x="250" y="100" width="14" height="140" fill="#f1f5f9" stroke="#cbd5e1"/>
+      <rect x="280" y="100" width="14" height="140" fill="#f1f5f9" stroke="#cbd5e1"/>
+      <rect x="306" y="100" width="14" height="140" fill="#f1f5f9" stroke="#cbd5e1"/>
+      <rect x="336" y="100" width="14" height="140" fill="#f1f5f9" stroke="#cbd5e1"/>
+      <!-- Triangular Pediment -->
+      <polygon points="230,80 300,35 370,80" fill="#ffffff" stroke="#cbd5e1" stroke-width="2"/>
+      <circle cx="300" cy="62" r="12" fill="#993d28"/>
+      <!-- Central Clock Tower & Crest -->
+      <rect x="280" y="10" width="40" height="28" fill="#ffffff" stroke="#e2e8f0"/>
+      <circle cx="300" cy="24" r="8" fill="#0f172a" stroke="#d4af37" stroke-width="2"/>
+      <!-- Grand Entrance Steps -->
+      <polygon points="220,240 380,240 400,265 200,265" fill="#64748b"/>
+      <!-- Institute Lettering Header -->
+      <rect x="100" y="275" width="400" height="32" rx="6" fill="#0f172a" opacity="0.9"/>
+      <text x="300" y="296" text-anchor="middle" fill="#ffffff" font-family="system-ui, sans-serif" font-weight="bold" font-size="12" letter-spacing="1">
+        DR. B. R. AMBEDKAR NATIONAL INSTITUTE OF TECHNOLOGY JALANDHAR
+      </text>
+    </svg>

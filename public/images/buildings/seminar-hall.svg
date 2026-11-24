@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 340" width="100%" height="100%">
+      <defs>
+        <linearGradient id="skySem" x1="0" y1="0" x2="0" y2="1">
+          <stop offset="0%" stop-color="#0369a1"/>
+          <stop offset="60%" stop-color="#38bdf8"/>
+          <stop offset="100%" stop-color="#e0f2fe"/>
+        </linearGradient>
+      </defs>
+      <rect width="600" height="240" fill="url(#skySem)"/>
+      <rect y="240" width="600" height="100" fill="#15803d"/>
+      <!-- Octagonal Main Core -->
+      <polygon points="120,240 480,240 520,120 80,120" fill="#f1f5f9" stroke="#cbd5e1" stroke-width="2"/>
+      <!-- Stepped Tiered Oxidized Patina Copper Roof -->
+      <polygon points="60,120 540,120 480,75 120,75" fill="#3d7063" stroke="#2a4c43" stroke-width="2"/>
+      <polygon points="110,75 490,75 430,45 170,45" fill="#477a68" stroke="#2a4c43" stroke-width="2"/>
+      <rect x="270" y="25" width="60" height="20" fill="#d4af37" stroke="#b45309" stroke-width="1.5"/>
+      <!-- Curved Double-Height Glass Curtain Foyer -->
+      <path d="M 160 240 Q 300 215 440 240 L 440 145 Q 300 125 160 145 Z" fill="#7dd3fc" opacity="0.85" stroke="#0284c7" stroke-width="2"/>
+      <!-- Curved Projecting Entrance Canopy -->
+      <path d="M 130 230 Q 300 200 470 230" fill="none" stroke="#0f172a" stroke-width="8"/>
+      <!-- Badge -->
+      <rect x="18" y="16" width="310" height="28" rx="14" fill="#0f172a" opacity="0.85"/>
+      <text x="173" y="34" text-anchor="middle" fill="#34d399" font-family="system-ui, sans-serif" font-weight="bold" font-size="11">
+        ✦ CENTRAL SEMINAR HALL | PATINA COPPER ROOF
+      </text>
+    </svg>

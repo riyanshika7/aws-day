@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 340" width="100%" height="100%">
+      <rect width="600" height="240" fill="#bae6fd"/>
+      <rect y="240" width="600" height="100" fill="#334155"/>
+      <!-- Square 3-Story Sandstone Pavilion -->
+      <rect x="100" y="80" width="400" height="160" fill="#e8d7c1" stroke="#d4b996" stroke-width="3"/>
+      <!-- Central Pyramidal Glass Skylight Lantern -->
+      <polygon points="220,80 380,80 300,30" fill="#38bdf8" stroke="#0284c7" stroke-width="2" opacity="0.9"/>
+      <!-- Rhythmic Vertical Brise-Soleil Sun Louver Fins -->
+      <g fill="#94a3b8" stroke="#64748b" stroke-width="1">
+        <rect x="120" y="85" width="4" height="150"/>
+        <rect x="145" y="85" width="4" height="150"/>
+        <rect x="170" y="85" width="4" height="150"/>
+        <rect x="195" y="85" width="4" height="150"/>
+        <rect x="220" y="85" width="4" height="150"/>
+        <rect x="245" y="85" width="4" height="150"/>
+        <rect x="270" y="85" width="4" height="150"/>
+        <rect x="325" y="85" width="4" height="150"/>
+        <rect x="350" y="85" width="4" height="150"/>
+        <rect x="375" y="85" width="4" height="150"/>
+        <rect x="400" y="85" width="4" height="150"/>
+        <rect x="425" y="85" width="4" height="150"/>
+        <rect x="450" y="85" width="4" height="150"/>
+        <rect x="475" y="85" width="4" height="150"/>
+      </g>
+      <!-- Recessed Main Glass Entrance -->
+      <rect x="280" y="185" width="40" height="55" fill="#0284c7" stroke="#ffffff" stroke-width="2"/>
+      <!-- Badge -->
+      <rect x="18" y="16" width="300" height="28" rx="14" fill="#0f172a" opacity="0.85"/>
+      <text x="168" y="34" text-anchor="middle" fill="#facc15" font-family="system-ui, sans-serif" font-weight="bold" font-size="11">
+        📖 KNOWLEDGE CENTRE | BRISE-SOLEIL SOLAR FINS
+      </text>
+    </svg>

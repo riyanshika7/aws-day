@@ -1,0 +1,58 @@
+{
+  "type": "FeatureCollection",
+  "name": "NITJ_Campus_Green_Areas",
+  "crs": {
+    "type": "name",
+    "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" }
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "id": "GRN-001",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [75.53580, 31.39680],
+            [75.53640, 31.39680],
+            [75.53640, 31.39800],
+            [75.53580, 31.39800],
+            [75.53580, 31.39680]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "GRN-001",
+        "name": "Main Entrance Front Lawns & Botanical Garden",
+        "category": "park_lawn",
+        "verification": "partially_verified",
+        "source": "Satellite Aerial Imagery",
+        "description": "Lush ceremonial lawn on the western flank of the main entrance avenue with decorative floral beds and mature trees."
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "GRN-002",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [75.53480, 31.39340],
+            [75.53620, 31.39340],
+            [75.53620, 31.39440],
+            [75.53480, 31.39440],
+            [75.53480, 31.39340]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "GRN-002",
+        "name": "Central Sports Ground & 400m Athletic Track Oval",
+        "category": "sports_field",
+        "verification": "partially_verified",
+        "source": "Satellite Aerial Imagery / Physical Grounds",
+        "description": "Primary athletic field featuring a 400m running track, football ground, and cricket pitch."
+      }
+    }
+  ]
+}
